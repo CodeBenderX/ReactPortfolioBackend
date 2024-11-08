@@ -134,6 +134,11 @@ nav {
   gap: 20px; 
 }
 
+.inputError{
+  background-color: red;
+}
+
+
 /* Responsive styles */
 @media (max-width: 1200px) {
   .navLayout {

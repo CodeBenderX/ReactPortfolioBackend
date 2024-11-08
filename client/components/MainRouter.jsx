@@ -10,6 +10,7 @@ import About from './About'
 import Project from './Project'
 import Services from './Services'
 import Contact from './Contact'
+import Counter from '../src/counter'
 import Layout from './Layout'
 
 /* 
@@ -27,6 +28,7 @@ const MainRouter = () => {
                         <Route exact path="/Project" element={<Project />} />
                         <Route exact path="/Services" element={<Services />} />
                         <Route exact path="/Contact" element={<Contact />} />
+                        <Route exact path="/Counter" element={<Counter />} />
                 </Routes>
         </div>
         )

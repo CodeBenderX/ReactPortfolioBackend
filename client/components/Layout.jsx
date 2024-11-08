@@ -31,6 +31,7 @@ export default function Layout() {
           <Link to="/project" onClick={handleLinkClick}>Project</Link>
           <Link to="/services" onClick={handleLinkClick}>Services</Link>
           <Link to="/contact" onClick={handleLinkClick}>Contact</Link>
+          <Link to="/counter" onClick={handleLinkClick}>Counter</Link>
         </nav>
       </div>
     </>
